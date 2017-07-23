@@ -30,6 +30,8 @@ namespace angular
         {
             // Add framework services.
             services.AddMvc();
+           // services.AddNodeServices(x => x.LaunchWithDebugging = true);
+            services.AddNodeServices();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
